@@ -3,14 +3,10 @@ body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Arial", Times, s
 
 nav ul{margin:0; padding:0; list-style:none;}
 
-
-html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
-
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
-
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -38,4 +34,12 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 #header nav li a{color:black; background-color:#F09090;} /*Header color for the text links*/
 #header nav li a:hover{color:#e43939; background-color:white;}
 
-
+.wrapper-bookrow{
+    display: grid;
+    grid-template-columns: repeat(5, 10fr);
+    gap: 90px;
+    margin-left: 200px;    
+    margin-right: 150px;
+    grid-auto-rows: 300px;
+    justify-content: center;
+  }
