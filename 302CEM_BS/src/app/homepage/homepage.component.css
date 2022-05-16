@@ -1,0 +1,41 @@
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Arial", Times, serif; color:black; background-color:#F5A9A9;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:rgb(255, 255, 255); background-color:#de4e4e;} /*Header banner*/
+.row2{color: black; background-color:#F09090;} /*Home page background color*/
+.row2 a{color:black; background-color:#F09090;}
+.row3, .row3 a{color:black; background-color:#de4e4e;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color: black; background-color:#F09090;}
+#header nav ul{padding:0 100px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:black; background-color:#F09090;} /*Header color for the text links*/
+#header nav li a:hover{color:#e43939; background-color:white;}
+
+
